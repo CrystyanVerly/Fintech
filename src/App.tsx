@@ -4,9 +4,9 @@ import Resumo from './Pages/Resumo';
 import Sidenav from './Components/Sidenav';
 import Header from './Components/Header';
 import { DataContextProvider } from './Context/DataContext';
-import Sales from './Pages/Sales';
+import Vendas from './Pages/Vendas';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Sale from './Pages/Sale';
+import Venda from './Pages/Venda';
 
 const App = () => {
 	return (
@@ -18,8 +18,8 @@ const App = () => {
 						<Header />
 						<Routes>
 							<Route path="/" element={<Resumo />} />
-							<Route path="/sales" element={<Sales />} />
-							<Route path="/sales/:id" element={<Sale />} />
+							<Route path="/vendas" element={<Vendas />} />
+							<Route path="/vendas/:id" element={<Venda />} />
 						</Routes>
 					</main>
 				</div>

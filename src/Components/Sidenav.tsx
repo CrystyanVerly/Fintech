@@ -22,7 +22,7 @@ const Sidenav = () => {
 					<span>
 						<img src={vendas} alt="" />
 					</span>
-					<NavLink to="/sales">Resumo</NavLink>
+					<NavLink to="/vendas">Resumo</NavLink>
 				</li>
 				<li>
 					<span>
