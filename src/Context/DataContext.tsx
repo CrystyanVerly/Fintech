@@ -1,7 +1,7 @@
 import React from 'react';
 import useFetch from '../Hooks/useFetch';
 
-type IVendas = {
+export type IVendas = {
 	id: string;
 	nome: string;
 	preco: number;
